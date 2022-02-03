@@ -1,0 +1,200 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+/* navbar styling */
+
+.nav {
+  display: flex;
+  justify-content: flex-end;
+  padding: 1.5rem;
+}
+
+@media (max-width: 900px) {
+  .nav {
+    flex-direction: column;
+    width: 100%;
+  }
+}
+
+.nav__list {
+  display: flex;
+  justify-content: space-around;
+  width: 50%;
+  align-items: center;
+}
+
+.nav__list li {
+  text-decoration: none;
+  list-style: none;
+  font-weight: bold;
+  color: rgb(77, 77, 77);
+}
+
+@media (max-width: 900px) {
+  .nav__list {
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+
+  .nav__list li {
+    width: 100%;
+  }
+}
+
+.nav__img {
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+}
+
+/* header styling */
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 4rem;
+  border-top: 2px solid rgb(223, 223, 223);
+  border-bottom: 2px solid rgb(223, 223, 223);
+  padding: 2rem;
+}
+
+@media (max-width: 900px) {
+  .header {
+    flex-direction: column;
+  }
+}
+
+.atm {
+  margin-right: 1rem;
+}
+
+.info {
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 1.5rem;
+}
+
+.info h6 {
+  color: rgba(196, 195, 195, 0.974);
+}
+
+.atm__card {
+  padding: 0;
+}
+
+.form__container {
+  display: flex;
+  flex-direction: column;
+  /* margin-left: 4rem; */
+}
+
+.logos {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 2rem;
+}
+
+.check {
+  display: flex;
+  justify-content: space-between;
+}
+
+#checkbox {
+  margin-right: 1rem;
+}
+
+.logo__img {
+  margin-left: 1rem;
+}
+.paypal {
+  width: 70px;
+
+  height: 30px;
+}
+
+.visa,
+.discover {
+  width: 50px;
+  height: 30px;
+}
+
+.discover {
+  background: rgba(240, 238, 238, 0.974);
+}
+
+.form {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+}
+
+@media (max-width: 900px) {
+  .form {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+.form__input {
+  display: grid;
+}
+
+.form__input input {
+  margin-top: 0.5rem;
+}
+
+.text {
+  width: 250px;
+  height: 50px;
+  padding: 1rem;
+  background: rgba(240, 238, 238, 0.974);
+  border: 1px solid rgb(191, 191, 191);
+  border-radius: 5px;
+}
+
+.form__btn {
+  grid-column: span 2;
+  height: 50px;
+  background: rgb(71, 71, 255);
+  border: 1px solid rgb(191, 191, 191);
+  border-radius: 5px;
+  color: #fff;
+}
+
+/* footer styling */
+
+.prices {
+  margin-bottom: 1rem;
+  padding: 1rem;
+}
+
+.name__price {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+
+.complete {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+  border-top: 2px solid rgb(223, 223, 223);
+  margin-bottom: 2rem;
+}
+
+.btn__complete {
+  width: 200px;
+  height: 50px;
+  background: rgb(71, 71, 255);
+  border: 1px solid rgb(191, 191, 191);
+  border-radius: 5px;
+  color: #fff;
+}
