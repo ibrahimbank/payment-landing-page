@@ -1,3 +1,5 @@
+Payment landing page is a simple application that shows the payment section of an add, it shows the form where users can type the details of their card for payment and also the toatal amount of what they are paying for.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
